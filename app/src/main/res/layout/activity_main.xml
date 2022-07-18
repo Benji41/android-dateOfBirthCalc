@@ -50,16 +50,17 @@
         tools:layout_editor_absoluteY="99dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_open_dialog_date"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:backgroundTint="@color/subtitles"
-        android:text="SELECT A DATE"
+        android:text="PICK A DATE"
         android:textColor="@color/white" />
 
     <TextView
+        android:id="@+id/txtDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
@@ -82,6 +83,7 @@
         tools:layout_editor_absoluteY="99dp" />
 
     <TextView
+        android:id="@+id/txtMinutesLived"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
