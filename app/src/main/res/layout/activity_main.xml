@@ -41,10 +41,11 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="40dp"
         android:text="IN MINUTES"
         android:textColor="@color/subtitles"
-        android:textSize="24sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="107dp"
         tools:layout_editor_absoluteY="99dp" />
@@ -63,7 +64,7 @@
         android:id="@+id/txtDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
+        android:layout_marginTop="50dp"
         android:text="x"
         android:textColor="@color/results"
         android:textSize="24sp"
